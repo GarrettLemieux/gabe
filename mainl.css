@@ -1,0 +1,66 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0%;
+}
+
+.s1 {
+  background-image: url("/images/gettyimages-95615916.webp");
+  background-size: cover;
+  position: relative;
+}
+
+.s1 h1 {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.s2 {
+  background-image: url("/images/electric.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.s2 h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 3rem;
+}
+
+.s3 {
+  background-image: url("/images/performance.webp");
+  background-size: cover;
+  position: relative;
+}
+
+.s3 h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+span {
+  background-color: white !important;
+}
+/*# sourceMappingURL=mainl.css.map */

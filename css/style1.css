@@ -1,0 +1,24 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1 { 
+   
+}
+.s1 {
+    background: url(../images/gettyimages-95615916.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.s1 h1 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: white;
+}

@@ -1,0 +1,105 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.flex {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-basis: ;
+}
+
+.left{
+    background-color: black;
+    flex: 2;
+    color: whitesmoke;
+    
+}
+
+.right{
+    flex: 8;
+}
+
+hr {
+    color: whitesmoke;
+    width: 11em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+/* LEFT COLUMN CSS */
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 19em; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(29, 21, 21); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    color: whitesmoke;
+    padding-top: 60px;
+    margin: 0;
+    transition: 1s;
+
+}
+
+.sidenav:hover {
+    
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    font-size: 2em;
+    transition: .3s;
+    margin-top: 2em;
+    margin-left: 2.5em;
+}
+.sidenav h1 {
+    margin: 1em;
+    font-size: 2em;
+}
+
+.info h3 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info p {
+    width: 90%;
+    margin: 0 2 auto;
+    text-align: center;
+}
+
+
+/* RIGHT COLUMN CSS */
+.main {
+    height: 100%;
+    margin-left: 304px;
+    background-image: -moz-radial-gradient(#F5D6C6, rgb(190, 168, 131));
+}
+
+.heroimg {
+    background-image: url(/images/IMG_20151002_185326-1200x853.jpg);
+    margin-left: 19em;
+    height: 40%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title {
+    padding: 2em;
+    color: #111;
+}
+
+.content {
+    margin: 0 auto;
+    width: 80%;
+}
